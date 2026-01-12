@@ -1,0 +1,182 @@
+/* =========================
+   SERVICES PAGE
+========================= */
+
+.services-page {
+  padding: 140px 0 100px;
+  background: #f8fafc;
+}
+
+/* Header */
+.services-header h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #1f2933;
+}
+
+.services-header p {
+  color: #64748b;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+/* Service Cards */
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-bottom: 80px;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.service-card.dark {
+  background: #1f2933;
+  color: #ffffff;
+}
+
+.service-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.service-card h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Highlight Section */
+.services-main {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  background: #ffffff;
+  padding: 60px;
+  border-radius: 22px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.services-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.services-text p {
+  color: #374151;
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+.services-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-text li {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #0f766e;
+}
+
+/* Image */
+.services-image img {
+  max-width: 360px;
+  border-radius: 18px;
+}
+
+/* Stats */
+.services-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  margin-top: 70px;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #0f766e, #115e59);
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.stat-box h4 {
+  font-size: 36px;
+  color: #facc15;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .services-main {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .services-image img {
+    max-width: 280px;
+  }
+}
+
+
+/* =========================
+   CLICKABLE SERVICE CARDS
+========================= */
+.service-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* =========================
+   PRICING TABLE
+========================= */
+.pricing-section {
+  padding: 100px 0;
+  background: #f8fafc;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.pricing-box {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.pricing-box.featured {
+  background: linear-gradient(135deg, #0f766e, #115e59);
+  color: #ffffff;
+}
+
+.pricing-box h4 {
+  font-size: 22px;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.pricing-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-box li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}

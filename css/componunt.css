@@ -1,0 +1,75 @@
+.btn {
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.primary {
+  background: #facc15;
+}
+
+.slider-box {
+  height: 320px;
+  background: #8d8383ea;
+}
+
+.service-card img {
+  width: 60px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+  background: #1f2933;
+  color: #e5e7eb;
+  padding-top: 50px;
+  margin-top: 80px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #374151;
+}
+
+.footer-brand h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-brand span {
+  color: #facc15;
+}
+
+.footer-brand p {
+  color: #9ca3af;
+}
+
+.footer-contact a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #facc15;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 18px 0;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
