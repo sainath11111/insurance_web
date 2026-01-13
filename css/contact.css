@@ -127,3 +127,22 @@
     font-size: 32px;
   }
 }
+
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #25D366;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+}
