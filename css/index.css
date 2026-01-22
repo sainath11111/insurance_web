@@ -178,20 +178,28 @@ background-size: cover;
 
 /* Responsive */
 @media (max-width: 900px) {
+ @media (max-width: 768px) {
   .hero {
-    flex-direction: column-reverse;
+    /* Focus the image on the right side where the family is */
+    background-position: right center; 
+    
+    /* Ensure the text is readable over the image */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/family.png");
+    
+    /* Adjust padding for smaller screens */
+    padding: 100px 5%;
     text-align: center;
-    padding: 40px 20px;
+    justify-content: center;
   }
 
   .hero h1 {
-    font-size: 32px;
+    font-size: 28px; /* Smaller text for mobile */
   }
 
-  .hero-image img {
-    max-width: 360px;
-    margin-bottom: 20px;
+  .hero p {
+    font-size: 16px;
   }
+}
 
   .buttons {
     justify-content: center;
